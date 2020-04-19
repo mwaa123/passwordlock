@@ -28,31 +28,31 @@ def save_user(user):
     user.save_user_details()
 
 
-# def del_contact(credential):
-#     """This class gives the application the ability to delete different user inputs or details"""
-#     credential.delete_credential()
+def del_contact(credential):
+    """This class gives the application the ability to delete different user inputs or details"""
+    credential.delete_credential()
 
 
-# def del_user(user):
-#     """This class gives the application the ability to delete different user inputs or details"""
-#     user.delete_user()
+def del_user(user):
+    """This class gives the application the ability to delete different user inputs or details"""
+    user.delete_user()
 
 
-# def user_log_in(name, password):
-#     """
-#     Function that allows a user to log into their credential account
-#     Args:
-#         name : the name the user used to create their user account
-#         password : the password the user used to create their user account
-#     """
-#     log_in = User.log_in(name, password)
-#     if log_in:
-#         return User.log_in(name, password)
+def user_log_in(name, password):
+    """
+    Function that allows a user to log into their credential account
+    Args:
+        name : the name the user used to create their user account
+        password : the password the user used to create their user account
+    """
+    log_in = User.log_in(name, password)
+    if log_in:
+        return User.log_in(name, password)
 
 
-# def find_first_name(credential):
-#     """ A user can use this feature to locate account details by first_name if for some reason the rest is vague"""
-#     return Credential.find_by_first_name(credential)
+def find_first_name(credential):
+    """ A user can use this feature to locate account details by first_name if for some reason the rest is vague"""
+    return Credential.find_by_first_name(credential)
 
 
 # def check_existing_credentials(credential):
