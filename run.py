@@ -17,15 +17,15 @@ def create_user(fname, lname, email,password):
     return new_user
 
 
-# def save_credentials(credential):
-#     """This is a subsequent function which optimizes application performance by enhancing several different features
-#     as saving a variety of credentials and user details """
-#     credential.save_credential()
+def save_credentials(credential):
+    """This is a subsequent function which optimizes application performance by enhancing several different features
+    as saving a variety of credentials and user details """
+    credential.save_credential()
 
 
-# def save_user(user):
-#     """Almost similar to the class above, this saves user/s details"""
-#     user.save_user_details()
+def save_user(user):
+    """Almost similar to the class above, this saves user/s details"""
+    user.save_user_details()
 
 
 # def del_contact(credential):
@@ -180,4 +180,4 @@ def create_user(fname, lname, email,password):
 
 
 # if __name__ == '__main__':
-    main()
+#     main()
