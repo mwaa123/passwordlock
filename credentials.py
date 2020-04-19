@@ -13,42 +13,33 @@ class Credentials:
         self.password = password
 
 
-    # def save_credential(self):
-    #     """A save_client credentials method"""
+    def save_credential(self):
+        """A save_client credentials method"""
 
-    #     Credential.credential_list.append(self)
+        Credential.credential_list.append(self)
 
-    # def delete_credential(self):
-    #     """This methods, at runtime, with complementary function allows users to delete details"""
+    def delete_credential(self):
+        """This methods, at runtime, with complementary function allows users to delete details"""
 
-    #     Credential.credential_list.remove(self)
+        Credential.credential_list.remove(self)
 
-    # @classmethod
-    # def find_by_first_name(cls, first_name):
-    #     """ A user can find details of the account using this method"""
-    #     for credential in cls.credential_list:
-    #         if credential.first_name == first_name:
-    #             return credential
+    @classmethod
+    def find_by_first_name(cls, first_name):
+        """ A user can find details of the account using this method"""
+        for credential in cls.credential_list:
+            if credential.first_name == first_name:
+                return credential
 
-    # @classmethod
-    # def credential_exist(cls, password):
-    #     """This method allows users to locate existing credentials"""
-    #     for credential in cls.credential_list:
-    #         if credential.password == password:
-    #             return True
+    @classmethod
+    def credential_exist(cls, password):
+        """This method allows users to locate existing credentials"""
+        for credential in cls.credential_list:
+            if credential.password == password:
+                return True
 
-    # @classmethod
-    # def display_credentials(cls):
-    #     """This function allows users to display details saved in their saved accounts """
-    #     return cls.credential_list
+    @classmethod
+    def display_credentials(cls):
+        """This function allows users to display details saved in their saved accounts """
+        return cls.credential_list
 
-    # import random
-    # def password(length):
-    #     pw = str()   
-    #     characters = "abcdef"
-    #     for i in range(length):
-    #          pw = pw + random.choice(characters)
-    #     print(pw)
-    #     return pw 
-    # password(10)
- 
+  
