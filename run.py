@@ -5,16 +5,16 @@ from user import User
 import random
 
 
-# def create_credential(fname, lname, password):
-#     """A functions which allows users to create new credentials"""
-#     new_credential = Credential(fname, lname, password)
-#     return new_credential
+def create_credential(fname, lname, password):
+    """A functions which allows users to create new credentials"""
+    new_credential = Credential(fname, lname, password)
+    return new_credential
 
 
-# def create_user(fname, lname, email,password):
-#     """This a function which gives users the ability to create new user accounts"""
-#     new_user = User(fname, lname, email,password)
-#     return new_user
+def create_user(fname, lname, email,password):
+    """This a function which gives users the ability to create new user accounts"""
+    new_user = User(fname, lname, email,password)
+    return new_user
 
 
 # def save_credentials(credential):
