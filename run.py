@@ -128,37 +128,37 @@ def main():
                 print("Please try again or create an account")
                 print("\n")
 
-#         elif short_code == "cag":
-#             print("New user")
-#             print("-" * 10)
-#             print("Hello! Which account would you like to create credentials for ?  ")
-#             site = input()
-#             print("->->->->")
+        elif short_code == "cag":
+            print("New user")
+            print("-" * 10)
+            print("Hello! Which account would you like to create credentials for ?  ")
+            site = input()
+            print("->->->->")
 
-#             print("First name ....")
-#             f_name = input()
+            print("First name ....")
+            f_name = input()
 
-#             print("Last name .....")
-#             l_name = input()
+            print("Last name .....")
+            l_name = input()
 
             
-#             print("Email Address")
-#             e_address = input()
+            print("Email Address")
+            e_address = input()
 
-#             print("password.....")
-#             password = int(input())
+            print("password.....")
+            password = int(input())
 
 
-#             print("Enter username ... System will generate a secure password")
-#             user_name = input()
+            print("Enter username ... System will generate a secure password")
+            user_name = input()
 
-#             p_generator = "12345678910!@#$%^&*()+-?><abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-#             password = "".join(random.sample(p_generator, 8))
-#             save_user(create_user(f_name, l_name, e_address, p_number))
-#             save_credentials(create_credential(f_name, l_name, password))
-#             print("\n")
-#             print(f"the username is {user_name} and the password is {password}")
-#             print("\n")
+            p_generator = "12345678910!@#$%^&*()+-?><abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            password = "".join(random.sample(p_generator, 8))
+            save_user(create_user(f_name, l_name, e_address, p_number))
+            save_credentials(create_credential(f_name, l_name, password))
+            print("\n")
+            print(f"the username is {user_name} and the password is {password}")
+            print("\n")
 
 #         elif short_code == "cad":
 #             if display_user():
