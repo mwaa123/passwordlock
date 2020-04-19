@@ -48,14 +48,14 @@ class TestUser(unittest.TestCase):
         self.new_user.save_user_details()  # saving the new user
         self.assertEqual(len(User.users_list), 1)
 
-    # def test_save_multiple_users(self):
-    #     """
-    #         this test-case method gives users the ability to save multiple account details
-    #     """
-    #     self.new_user.save_user_details()
-    #     test_user = User("Test", "user","test@user.com","ruthmugo2020")  # new user
-    #     test_user.save_user_details()
-    #     self.assertEqual(len(User.users_list), 2)
+    def test_save_multiple_users(self):
+        """
+            this test-case method gives users the ability to save multiple account details
+        """
+        self.new_user.save_user_details()
+        test_user = User("Test", "user","test@user.com","ruthmugo2020")  # new user
+        test_user.save_user_details()
+        self.assertEqual(len(User.users_list), 2)
 
     def test_log_in(self):
         '''
