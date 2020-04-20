@@ -1,20 +1,24 @@
 
+## PYTHON-PASSWORD
 
 Password Locker This is a Python application that helps users to generate and store passwords for various accounts.
 
 Date created 19/04/2020
 
-Author By Ruth mugo
+ ## Author
 
-Description
+ Ruth mugo
+
+ ## Description
 
 This application lets users store various accounts information. The application runs on the terminal from the various files ceated.
 
-Developers content
+## contacts
 
-ruthwanjiramugo@gmail.com
+[ruthwanjiramugo@gmail.com]
 
-The short codes are: can - create a new_user account with a user_defined password\n
+ ## The short codes are:
+can - create a new_user account with a user_defined password\n
 
 cag- create a new auto-generated password
 
@@ -24,7 +28,7 @@ cad - display all user accounts
 
 ex -exit the contact list
 
-User Stories As a user I would like:
+##  As a user I would like:
 
 To create an account with my details - log in and password,
 Save my existing log_in credentials,
@@ -52,20 +56,21 @@ Generate a password Account        Generate a password for the user.
 
 Log out	           N/A	           Log out of Password Locker account
 
-Prerequisites Python3.6 and above: System specification,python 3.7.4
 
-Setup/Installation Requirements
+## Setup/Installation Requirements
 
 Clone this repository and run the run.py file.
 
-Known Bugs
+## Known Bugs
 
 No known bugs
 
-Technologies Used
+## Technologies Used
 
 Python3.6
 
-License
 
-MIT (c) 2020 Ruth Mugo
+## License
+[LICENCE](/home/ruth/python-password/LICENCE.md)
+
+* Copyright (c) 2020 **Ruth Mugo**
