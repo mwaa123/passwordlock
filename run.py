@@ -160,10 +160,10 @@ def main():
             print(f"the username is {user_name} and the password is {password}")
             print("\n")
 
-        # elif short_code == "cad":
-        #     if display_user():
-        #         print("Here is a list of all your user accounts")
-        #         print("\n")
+        elif short_code == "cad":
+            if display_user():
+                print("Here is a list of all your user accounts")
+                print("\n")
 
                 for user in display_user():
                     print(f"{user.first_name} {user.last_name} has credentials for this {site}")
